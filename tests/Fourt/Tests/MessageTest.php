@@ -12,7 +12,7 @@ class MessageTest extends FourtTestCase
         $res = $this->client->sendMessage(
             array(
                 'merchantId' => 3,
-                'to' => '11111121',
+                'to' => '4511111121',
                 'text' => 'Hello World',
                 'shortCode' => 1111,
                 'from' => 'TestTest'
@@ -37,7 +37,7 @@ class MessageTest extends FourtTestCase
         $res = $this->client->sendMessage(
             array(
                 'merchantId' => 3,
-                'to' => '11111121',
+                'to' => '4511111121',
                 'text' => 'C0601AE02056A0045C60C037777772E6D6F6269636174696F6E2E636F6D2F7265706F7369746F72792F766964656F2F6D70342F3937305F64343338636137323036346132653337376165306131616131383136633038612E6D70340001034D46205375707065000101',
                 'shortCode' => 1111,
                 'from' => 'MyMerchant',
@@ -54,7 +54,7 @@ class MessageTest extends FourtTestCase
         $res = $this->client->sendMessage(
             array(
                 'merchantId' => 3,
-                'to' => '11111121',
+                'to' => '4511111121',
                 'text' => 'Hello World',
                 'shortCode' => 1111,
                 'from' => 'MyMerchant',

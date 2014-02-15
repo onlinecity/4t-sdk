@@ -88,6 +88,18 @@ return array(
                     'location' => 'json',
                     'required' => false
                 ),
+                'firstOperationCallbackUrl' => array(
+                    'description' => 'The result of the first operation for this transaction will be communicated to this endpoint.',
+                    'type' => 'string',
+                    'location' => 'json',
+                    'required' => false
+                ),
+                'firstOperationCallbackVerbosity' => array(
+                    'description' => 'Determines what kind of states will be communicated towards the callbackUrl. A combination of values is possible by using comma-separation.',
+                    'type' => 'array',
+                    'location' => 'json',
+                    'required' => false
+                ),
                 'productId' => array(
                     'description' => 'Code for product code',
                     'type' => 'string',
